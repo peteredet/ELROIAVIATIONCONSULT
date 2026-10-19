@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+Disallow: /rate-limited.html
+
+Sitemap: https://YOURDOMAIN.com/sitemap.xml
