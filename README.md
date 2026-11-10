@@ -2,17 +2,14 @@
 
 Static site. No build step, no dependencies. Plain HTML, CSS and JavaScript in `public/`.
 
-## Before launch: replace placeholders
+## Contact details and domain
 
-Search the project for `YOURDOMAIN` and `000` and replace:
-
-| Where | What |
-|---|---|
-| `public/index.html` | Canonical URL, og:url, og:image, email, phone, city/country |
-| `public/robots.txt`, `public/sitemap.xml` | Domain |
-| `public/.well-known/security.txt` | Security contact email and domain |
-
-Also add `public/assets/og-image.png` (1200×630) for link previews, or remove that meta tag.
+- Domain: `www.elroiaviationconsult.com` (primary). The bare domain redirects to it.
+- Email: info@elroiaviationconsult.com · CEO: Orok.E@elroiaviationconsult.com
+- Phone: +1 301-820-1498 · Office: 13852 Crosstie Drive, Germantown, Maryland 20874, USA
+- These appear in `public/index.html` (contact section, footer, structured data), `robots.txt`,
+  `sitemap.xml` and `.well-known/security.txt`. Update all of them together.
+- The logo is `public/assets/logo.svg` (traced from the letterhead); it is also inlined in the page headers.
 
 ## Deploy (GitHub → Netlify)
 
